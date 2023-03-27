@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-BUCKET = 'BUCKET-NAME-HERE’
+BUCKET = "BUCKET-NAME-HERE"
 import boto3
 s3 = boto3.resource('s3')
 bucket = s3.Bucket(BUCKET)
